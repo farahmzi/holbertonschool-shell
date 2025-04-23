@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -lt --time=modify --no-group | grep '^-' | head -n 10 | awk '{print $9}'
